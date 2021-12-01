@@ -53,7 +53,7 @@ numArray.push(num);
 }
 } else{
   for (let num = start; num
-  <=end; num= num + step){
+  <=end; num = num - 1){
 
 numArray.push(num);
 
@@ -65,4 +65,4 @@ console.log(numArray);
 
 }
 
-NumberRange(1,10,-2);
+NumberRange(5,2,-1);
